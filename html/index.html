@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b82587c59e.js" crossorigin="anonymous"></script>
+    <title>Personal Portfolio Website- Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <h1><span>P</span>RIYANKA....</h1>
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Protfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="/register">Account</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+
+            <div class="header-text">
+                <h2>Hi , I'm <span>Priyanka Dixit</span><br>From Sikar</h2>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------about-me------------------------------------------------------------------------------------------------- -->
+    <div id="about">
+        <div class="container">
+     <div class="row">
+     <div class="about-col-1">
+         <img src="image_index/one.jpg">
+        </div>
+    <div class="about-col-2">
+        <h2 class="sub-title">About Me</h2>
+<p>I am a qualified and professional web developer with one year  <br>
+    of experience in website design <span style="color:antiquewhite">(2021-till now)</span>before that assist<br>
+    students in the creation and development of software and <br>
+ help them learn how to maintain and fix code in various format<span style="color:antiquewhite">(professional:Teacher,2016-2020)</span></p>
+
+<div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+    <p class="tab-links" onclick="opentab('education')">Education</p>
+
+</div>
+
+<div class ="tab-contents active-tab" id="skills">
+    <ul>
+<li><span>Languages:</span></li>
+       
+<li>C , C++</li>
+<li>HTML , CSS</li>
+<li>JavaScript , NodeJs , ExpressJs</li>
+<li>REACT js</li>
+<li>MYSql , MongoDB</li>
+<li>php</li>
+    </ul>
+</div>
+
+
+
+<div class ="tab-contents" id="experience">
+    <ul>
+<li><span>Project in C:</span></li>
+       
+<li>Quiz Using  C</li>
+<li><span>Project in Html and Css:</span></li>
+<li>Template </li>
+<li><span>Project in Html and Css , JS:</span></li>
+<li>Various basic and advanced ones</li>
+
+<li><span>Project in Html and css ,JS,Api,Nodejs:</span></li>
+<li>dynamic weather APP </li>
+<li><span>Projects in Node,Express,JS, MongoDB,Reactjs:</span></li>
+<li>Fully dynamic website</li>
+    </ul>
+</div>
+
+
+<div class ="tab-contents" id="education">
+    <ul>
+<li><span>B.tech in computer science:</span></li>
+       
+<li>2011-2015,Bhartiya institute of enginerring(sikar)</li>
+<li><span>Internship/diploma in IT</span></li>
+<li>2015-2016 IANT, Sikar</li>
+
+</div>
+
+
+
+
+
+
+
+        
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ...services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="service">My Services</h1>
+            <div class="services-list">
+                
+               
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>Frontend Design</h2>
+                    <p>Many project made frontend design and continously improveing this skill and creativing something new layout</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Backend Design</h2>
+                    <p>
+                      With the frontend design ,I can assure one that my Backend skills are also good and I am continously improving the same  Being a Maths student , I am always ready and eager to solve the problems using the logics.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                
+            </div>
+
+            <!-- portfolio -->
+            <div id="portfolio">
+                <div class="containerr">
+                    <h1>My Work</h1>
+                    <div class="work-list"> 
+                       
+                        <div class="work">
+                            <img src="image_index/ii.jpg">
+                            <div class="layer">
+                                <h3>Moving Car Animation</h3>
+                                <p>Using Pure html,css,javascript</p>
+                                <a href="about/CAR.html"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                            
+                        </div>
+                        <div class="work">
+                            <img src="image_index/pp.jpg">
+                            <div class="layer">
+                                <h3>Template</h3>
+                                <p>HTML<br>CSS</p>
+                                <a href="about/swan.html"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                            
+                        </div>
+
+                        <div class="work">
+                            <img src="image_index/kk.jpg">
+                            <div class="layer">
+                                <h3>Analog clock</h3>
+                                <p>Using Pure HTML<br>,CSS,JavaScript</p>
+                                <a href="about/analog clock.html"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                            
+                        </div>
+                       
+                    </div>
+                  <a href  class="btn">SeeMore</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- contact form -->
+    <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1>Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>dixitpriyanka13012@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>+917300123016</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://twitter.com"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="image/Priyanka_Resume.pdf" download class="btn1 btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form onsubmit="sendEmail();  reset(); return false;">
+                    <input type="text" name="Name"  id="name" placeholder="Your Name" required>
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                    <textarea name="message" id="message" placeholder="Your Message" rows="6"></textarea>
+                    <button type="submit" class="btn1 btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+        
+    </div>
+
+    
+    <div class="copyright">
+        <p>Copyright @ pd Made with by priyanka dixit</p>
+    </div>
+
+    <!-- codes send mail with smtp server -->
+    
+
+    
+    <script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+
+    // opentab receive krta hai only one argument
+    function opentab(tabname){
+        for(tablink of tablinks){
+        
+        tablink.classList.remove("active-link");
+        }
+       for(tabcontent of tabcontents)
+       {
+        tabcontent.classList.remove("active-tab");
+       }
+
+       event.currentTarget.classList.add("active-link");
+       document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+
+</script>
+<script>
+    var sidemeu =document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right= "0px";
+    }
+
+    function closemenu(){
+        sidemeu.style.right= "-220px";
+    }
+
+
+</script>
+
+
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- send an email using -->
+    <script>
+        function sendEmail(){
+        Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "dixitpriya805@gmail.com",
+        Password : "3873B37A49F6DA2EE6C825B6B4C5E9C45F1C",
+        To : 'dixitpriya805@gmail.com',
+        From : 'dixitpriya805@gmail.com',
+        Subject : "New Contact from Enquiry",
+        Body : "Name:" + document.getElementById("name").value
+               +"<br> Email:" +document.getElementById("email").value
+               +"<br> Message:" +document.getElementById("message").value
+    }).then(
+    
+        message => alert("Message Sent Successfully"));
+        }
+    </script>
+</body>
+
+</html>

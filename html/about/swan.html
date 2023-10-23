@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>swan hotel</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+            <script src="https://kit.fontawesome.com/c4254e24a8.js"  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="swan.css">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script> 
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="detail">
+
+             <div class="left">
+
+                <div class="lt">
+                       <span> <img src="swan.png" width=60px heigh=80px>HOTEL SWAN</span> </div>
+<div class="lb">
+             <ul class="main">
+                <li>
+                    <a href="#">
+                       <span> <i class=""></i>
+                        Overview</span> </a>
+                </li>
+
+
+                <li>
+                  <a href="#">
+                     <span>  <i class="fa-solid fa-calendar-days"></i> Calendar</span></a>
+
+                    
+                </li>
+
+
+                <li>
+                    <a href="#">
+                       <span><i class="fa-thin fa-key"></i>Booking</span></a>
+                             
+
+                <li>
+                    <a href="#">
+                       <span> <i class="fa-solid fa-money-check"></i>
+                        Earnings</span>
+
+                    </a>
+                </li> 
+
+                <li>
+                    <a href="#">
+                        <span><i class="fa-duotone fa-user"></i>
+                        stuff</span>
+
+                    </a>
+                </li>
+            </ul></div>
+
+            <div class="lbb">
+               
+                    
+                <input type="button"><a href="#"><i class="fa-solid fa-gear">setting</a></i></input>
+            </div>
+
+
+</div>
+
+<div class="medium">
+    <div class="search-box">
+    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    <pre>       <input type="text" id="input-box" placeholder="Search"  autocomplete="off"></pre>
+    
+    
+</div>
+<hr><h1 style="color:silver;">Welcome,</h1><h1 style="color:black;">William</h1>
+<h6>You have 9 free rooms at Saint Denis</h6>
+
+<div class="three-box">
+    <div class="one"></div>
+    
+   <div class="second"></div>
+    <div class="third"><a href="#">+</a>
+    <h5>Add new object</h5></div>
+    
+
+
+    
+</div>
+
+<div class="graph"  id="graph1">
+
+        <canvas id="myChart" width="20%" ></canvas>
+        
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="right">
+    <div class="rt" current-count="8"><i class="fa-solid fa-bell"></i></div>
+    <div class="rm">
+        <div class="img"></div>
+    
+    <div>Booking list</div></div>
+
+    <div class="rb">
+
+        <h5>UNLOCK NEW FEATURES</h5>
+       <button type="button"> <a>Get Pro Now</a></button>
+    </div>
+</div>
+            
+            </div>
+
+
+            <script>
+                var ctx = document.getElementById('myChart').getContext('2d');
+               var myChart = new Chart(ctx, {
+                   type: 'line',
+                   data: {
+                     labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                     datasets: [{ 
+                         data: [120,120,20,120,120,120,120],
+                         label: "Total",
+                         borderColor: "rgb(62,149,205)",
+                         backgroundColor: "rgb(62,149,205,0.1)",
+                       }, { 
+                         data: [70,90,44,60,83,90,100],
+                         label: "Accepted",
+                         borderColor: "rgb(60,186,159)",
+                         backgroundColor: "rgb(60,186,159,0.1)",
+                       }, { 
+                         data: [10,21,60,44,17,21,17],
+                         label: "Pending",
+                         borderColor: "rgb(255,165,0)",
+                         backgroundColor:"rgb(255,165,0,0.1)",
+                       }, { 
+                         data: [6,3,2,2,7,0,16],
+                         label: "Rejected",
+                         borderColor: "rgb(196,88,80)",
+                         backgroundColor:"rgb(196,88,80,0.1)",
+                       }
+                     ]
+                   },
+                 });
+             </script>
+</body>
+
+</html>
